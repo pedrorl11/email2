@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
                 String assunto = etAssunto.getText().toString();
                 String texto = etTexto.getText().toString();
 
-
                 //passa pra próxima interface
                 Intent i = new Intent(Intent.ACTION_SENDTO);
                 i.setData(Uri.parse("mailto:"));
